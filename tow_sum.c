@@ -7,8 +7,8 @@ int* twoSum(int* nums, int numsSize, int target);
 int main(int argc, char *argv[]) 
 {
 	int * results;
-	int nums[3] = {3,2,4};
-	results = twoSum(nums,3,6);
+	int nums[6] = {-1,-2,-3,-4,-5};
+	results = twoSum(nums,5,-8);
 	printf("%d,%d",results[0],results[1]);
 	return 0;
 }
@@ -16,24 +16,19 @@ int main(int argc, char *argv[])
 int* twoSum(int* nums, int numsSize, int target) 
 {
     int i, j, find;
-    int results[2];
+    int* results = (int*)malloc(sizeof(int)*2);
     for (i = 0;i < numsSize;i++)
     {
-    	if (nums[i] > target)
-    	    i++;
-    	else
-    	{
-    		find = target - nums[i];
     		for (j = i+1;j < numsSize;j++)
     		{
-    			if (find == nums[j])
+    			if (target == nums[i] + nums[j])
     			{
     				results[0] = i;
     				results[1] = j;
     				
 				}
 			}
-		}	    
+			    
 	}
 	return (results);
 }
