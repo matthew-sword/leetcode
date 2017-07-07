@@ -1,6 +1,10 @@
-#include <stdio.h>
+ #include <stdio.h>
 #include <stdlib.h>
+<<<<<<< HEAD
 
+=======
+//test of push 
+>>>>>>> dev
 int reverse(int x); 
 
 int main(int argc, char *argv[]) 
