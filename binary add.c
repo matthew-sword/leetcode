@@ -71,7 +71,7 @@ char* addBinary(char* a, char* b)
         return sum;
     }
 
-   char* sum0 = (char*)malloc(sizeof(char) * (len_sum));
-    strcpy(sum0,sum+1);
-    return sum0;
+   //char* sum0 = (char*)malloc(sizeof(char) * (len_sum));
+    //strcpy(sum0,sum+1);
+    return sum+1;
 }
