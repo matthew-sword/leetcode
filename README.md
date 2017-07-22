@@ -2,7 +2,7 @@
 ## task 1    
 
 * two sum   
-*  Reverse Integer  
+* Reverse Integer  
 * Valid Parentheses
 
 ## task 2   
@@ -13,6 +13,7 @@
 
 ## task 3 
 
-* Climbing Stairs()
+* Climbing Stairs() 	2017.7.20
+* min stack        2017.7.22
 * ...
 
