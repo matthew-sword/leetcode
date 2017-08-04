@@ -17,10 +17,11 @@
 * min stack        2017.7.22
 * 3sum（无法去重）2017.7.26
 * courses schedule  2017.7.28
-* ...
 
 
 ## task 4
 
 *  Linked List Cycle
-* ...
+*  Find_All_Duplicates_in_an_Array
+*  Minimum_Path_Sum
+*  ...
